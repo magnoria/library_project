@@ -5,19 +5,56 @@
 
 </head>
 <body>
+<!--http://localhost:8080/lib/book.html-->
+<a href="library.html"> 회원관리</a>
+
+
 <h3> <h4> 대여관리</h4></h3>
-도서 이름: <input type="text" class="">
-도서 작가: <input type="text" class="">
-도서 출판사: <input type="text" class="">
-도서 재고: <input type="text" class="">
-<button type="button"> 등록</button>
-<button type="button"> 삭제</button>
-
-<tbody>
+도서 이름: <input type="text" class="btitle">
+도서 작가: <input type="text" class="writer">
+도서 출판사: <input type="text" class="publisher">
+도서 재고: <input type="text" class="stock">
+<button type="button" onclick="bsave()"> 등록</button>
 
 
 
-</tbody>
 
+<table border="1" >
+    <thead>
+    <tr>
+        <th> 이름 </th>
+        <th>핸드폰번호</th>
+        <th>주소</th>
+        <th>대여한책</th>
+        <th>수정</th>
+        <th>삭제</th>
+    </tr>
+    </thead>
+
+
+    <tbody>
+    <tr>
+        <th> 유재석</th>
+        <th>010-3333-3333</th>
+        <th>부평</th>
+        <th>천사와악마</th>
+    </tr>
+    </tbody>
+</table>
+
+<table class="fortun">
+
+</table>
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="bindex.js"></script>
 </body>
 </html>
