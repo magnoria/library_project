@@ -44,8 +44,9 @@ public class MemberController {
     public boolean update(@RequestBody MemberDto memberDto){
         System.out.println("MemberController.update");
         System.out.println("memberDto = " + memberDto);
-
-        return memberService.update(memberDto);
+        boolean result = memberService.update(memberDto);
+        System.out.println(result);
+        return result;
     }
 
     //5. 대여자 삭제
