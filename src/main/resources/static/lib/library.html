@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+ <!--http://localhost:8080/lib/library.html-->
+
+    <h4> 회원관리</h4>
+    이름 : <input type="text" class="mname">
+    핸드폰번호: <input type="text" class="mphone">
+    주소: <input type="text" class="maddress">
+    대여한 책: <input type="text" class="mbook">
+    <button type="button" onclick="save()"> 등록</button>
+
+
+
+    <table border="1" >
+        <thead>
+        <tr>
+            <th> 이름 </th>
+            <th>핸드폰번호</th>
+            <th>주소</th>
+            <th>대여한책</th>
+            <th>수정</th>
+            <th>삭제</th>
+        </tr>
+        </thead>
+
+
+        <tbody>
+        <tr>
+            <th> 유재석</th>
+            <th>010-3333-3333</th>
+            <th>부평</th>
+            <th>천사와악마</th>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
